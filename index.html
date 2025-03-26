@@ -1,46 +1,61 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;section id="portfolio" class="py-20 px-6 bg-gray-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 class="text-4xl font-bold text-center mb-6"&gt;Portfolio&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-6"&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Project 1 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="bg-white p-4 shadow-md hover:scale-105 transition-transform"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="projects/work1.jpg" alt="Project 1" class="w-full h-48 object-cover"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-lg font-bold mt-2"&gt;Project Name&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-600"&gt;Short description of the project.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://yourprojectlink.com" target="_blank" class="text-blue-500 underline"&gt;View Project&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Project 2 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="bg-white p-4 shadow-md hover:scale-105 transition-transform"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="projects/work2.jpg" alt="Project 2" class="w-full h-48 object-cover"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-lg font-bold mt-2"&gt;Another Project&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-600"&gt;Short description of the project.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://yoursecondproject.com" target="_blank" class="text-blue-500 underline"&gt;View Project&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Project 3 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="bg-white p-4 shadow-md hover:scale-105 transition-transform"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="projects/work3.jpg" alt="Project 3" class="w-full h-48 object-cover"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-lg font-bold mt-2"&gt;Third Work&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-600"&gt;Brief details of what you did.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://yourthirdproject.com" target="_blank" class="text-blue-500 underline"&gt;View Project&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
+
+    <!-- Header Section -->
+    <header class="text-center py-10 bg-black text-white">
+        <h1 class="text-4xl font-bold">My Portfolio</h1>
+        <p class="text-gray-300 mt-2">Showcasing my best work</p>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-12 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Project 1 -->
+            <div class="bg-white p-4 shadow-md hover:scale-105 transition-transform">
+                <img src="projects/work1.jpg" alt="Project 1" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold mt-2">Project Name</h3>
+                <p class="text-gray-600">Short description of the project.</p>
+                <a href="https://yourprojectlink.com" target="_blank" class="text-blue-500 underline">View Project</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-white p-4 shadow-md hover:scale-105 transition-transform">
+                <img src="projects/work2.jpg" alt="Project 2" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold mt-2">Another Project</h3>
+                <p class="text-gray-600">Short description of the project.</p>
+                <a href="https://yoursecondproject.com" target="_blank" class="text-blue-500 underline">View Project</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="bg-white p-4 shadow-md hover:scale-105 transition-transform">
+                <img src="projects/work3.jpg" alt="Project 3" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold mt-2">Third Work</h3>
+                <p class="text-gray-600">Brief details of what you did.</p>
+                <a href="https://yourthirdproject.com" target="_blank" class="text-blue-500 underline">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-black text-white mt-12">
+        <p>&copy; 2025 Kishor | All Rights Reserved</p>
+    </footer>
+
 </body>
 </html>
